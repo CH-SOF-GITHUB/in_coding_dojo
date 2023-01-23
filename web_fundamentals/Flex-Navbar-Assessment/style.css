@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333333;
+}
+
+.nav h1 {
+    color: aliceblue;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 6px 23px;
+    background-color: #17A2B8;
+    color: aliceblue;
+    font-weight: 700;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    font-size: 15px;
+}
