@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 750px;
+    height: 600px;
+    /* border: 2px solid black; */
+    font-family: cursive;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #CCCCCC;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header-search {
+    width: 250px;
+    padding: 3px;
+    /* background-color: gainsboro; */
+    border: none;
+    font-family: cursive;
+    border: 2px solid black;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+#LogBtn {
+    padding: 5px 15px;
+    margin-right: 10px;
+    background-color: blue;
+    font-weight: 600;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px black;
+}
+
+/**/
+.main {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.dojonary-ninja {
+    display: flex;
+    flex-direction: column;
+}
+
+.ninja-1 {
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+    margin-top: 20px;
+}
+
+.ninja-1-details {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.ninja-1-details span {
+    text-align: center;
+}
+
+.ninja-1-details button {
+    padding: 6px;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px black;
+    background-color: #FFD966;
+    font-weight: 700;
+}
+
+.ninja-1-skilled {
+    width: 220px;
+    margin-right: 25px;
+}
+
+.dojonary-definition {
+    margin-top: 20px;
+    width: 230px;
+    border: 3px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+#DefBtn {
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px black;
+    background-color: #93C47D;
+    width: 230px;
+    font-weight: 700;
+}
