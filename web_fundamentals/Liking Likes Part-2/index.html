@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Liking Likes Part 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <div class="main">
+            <h1>Your Feed</h1>
+            <div class="main-users">
+                <div class="cart-user">
+                    <img class="cart-user-image" src="images/user-circle.png" alt="user-circle logo">
+                    <a href="#">Add an avator</a>
+                    <h2>James Doe</h2>
+                </div>
+                <div class="likes">
+                    <!--cart1-->
+                    <div class="cart-like">
+                        <div class="cart-like-infos">
+                            <h1>Neil M</h1>
+                            <p><span id="number-1-likes"> 9 </span>like(s)</p>
+                            <button onclick="increase('number-1-likes')">Like</button>
+                        </div><br><br>
+                        <div class="cart-like-text">
+                            I just set up this new discord bot, let me know
+                            what you all think. <a href="#">link</a>
+                        </div>
+                    </div>
+                    <!--cart2-->
+                    <div class="cart-like">
+                        <div class="cart-like-infos">
+                            <h1>Nichole K</h1>
+                            <p><span id="number-2-likes"> 12 </span>like(s)</p>
+                            <button onclick="increase('number-2-likes')">Like</button>
+                        </div><br><br>
+                        <div class="cart-like-text">
+                            Just finished my <a href="#">next comic</a>, check it out.
+                        </div>
+                    </div>
+                    <!--cart3-->
+                    <div class="cart-like">
+                        <div class="cart-like-infos">
+                            <h1>Jim R</h1>
+                            <p><span id="number-3-likes"> 9 </span>like(s)</p>
+                            <button onclick="increase('number-3-likes')">Like</button>
+                        </div><br><br>
+                        <div class="cart-like-text">
+                            I can't stop listening to the <a href="#">new album</a>.
+                            Who else is liking it?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripting.js"></script>
+</body>
+
+</html>
