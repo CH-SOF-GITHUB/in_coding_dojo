@@ -1,0 +1,316 @@
+/* Uinversal Selector Reset Default */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+    margin: 10px;
+    font-weight: 600;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+#LogBtn {
+    background-color: #17CFD1;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.main {
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    width: 885px;
+    height: 500px;
+    display: block;
+    padding: 10px;
+}
+
+.bloc1,
+.bloc2 {
+    display: inline-block;
+}
+
+.bloc2 {
+    margin-left: 20px;
+}
+
+/* user-card Styling */
+.user-card {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 400px;
+    border: 3px solid gainsboro;
+}
+
+.user-card-image {
+    height: 65px;
+    width: 67px;
+    top: 132px;
+    position: fixed;
+    margin-left: 15px;
+}
+
+.blue-cyan {
+    background-color: #17CFD1;
+    height: 80px;
+    width: 400px;
+}
+
+/* user-card End Styling */
+/* userDetails Styling */
+.userDetails {
+    display: block;
+    margin-left: 15px;
+    font-family: cursive;
+}
+
+.details-map {
+    display: inline-block;
+    align-items: center;
+}
+
+.map-image {
+    width: 10px;
+    height: 10px;
+}
+
+.gear {
+    width: 15px;
+    height: 15px;
+}
+
+/* userDetails End Styling */
+/* Education Styling */
+.education {
+    margin-top: 10px;
+    width: 400px;
+    height: 130px;
+    border: 3px solid gainsboro;
+}
+
+.gray {
+    padding: 10px;
+    font-family: cursive;
+    color: white;
+    height: 20px;
+    background-color: rgb(55, 54, 54);
+}
+
+.education-details {
+    font-family: cursive;
+    padding: 10px;
+}
+
+.education-date {
+    color: grey;
+}
+
+/* Education Styling End */
+/* Connection Requests Styling */
+.connection-requests {
+    width: 450px;
+    height: 140px;
+    border: 3px solid gainsboro;
+}
+
+.connection-color {
+    padding: 10px;
+    font-family: cursive;
+    color: white;
+    height: 20px;
+    background-color: rgb(55, 54, 54);
+}
+
+.connection-number {
+    width: 25px;
+    border-radius: 45%;
+    background-color: gainsboro;
+    margin-right: 5px;
+}
+
+.connection-number span {
+    padding: 5px;
+}
+
+#person-toddE {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.details-toddE {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+.todd-E-Image {
+    width: 25;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.images-toddE img {
+    width: 25px;
+    height: 25px;
+}
+
+/**/
+#person-philK {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.details-philK {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+.phil-K-Image {
+    width: 25;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.images-philK img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Connection Requests Styling */
+.your-connections {
+    margin-top: 20px;
+    width: 450px;
+    height: 260px;
+    border: 3px solid gainsboro;
+}
+
+.person-adrienD {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.details-adrienD {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+.adrien-D-Image {
+    width: 25;
+    height: 25px;
+    border-radius: 50%;
+    /* margin-right: 10px; */
+}
+
+.person-anneJ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.details-anneJ {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+.anne-J-Image {
+    width: 25;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.person-alayneT {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.details-alayneT {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+.alayne-T-Image {
+    width: 25;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.person-arryY {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.details-arryY {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+.arry-Y-Image {
+    width: 25;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/******************************/
+.view-more {
+    padding: 5px;
+    font-family: cursive;
+}
+
+.view-more a {
+    margin-right: 10px;
+}
